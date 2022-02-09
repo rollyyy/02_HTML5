@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼 관련 태그 실습</title>
+</head>
+<table>
+    <fieldset>
+        <legend>납품자 정보</legend>
+        <label>1.납품자 명 : </label>
+        <input type="text" name="userId"><br><br>
+        <label>2.email : </label>
+        <input type="email" name="emailId" placeholder="answer@naver.com"><br><br>
+        <label>3.홈페이지 : </label>
+        <input type="url" name="urlId" placeholder="http://"><br><br>
+        <label>4.지역 : </label>
+        <select name="in">
+            <option>인천</option>
+        </select>
+    </fieldset>
+</table>
+<table>
+    <fieldset>
+        <legend>납품 정보</legend>
+        <ul>
+        <li>상품명 : 
+        <input type="text" name="userId"></li><br>
+        <li>납품수량 : 
+            <input type="text" name="납품수량" placeholder="최소 100"></li><br>
+        <li>납품등급 : 
+            <input type="range" name="납품등급"></li><br>
+        <li>기타사항 : 
+            <textarea cols="20" rows="2"></textarea></li>
+    </ul>
+    </fieldset>
+</table><br>
+    <input type="submit" value="send massage">
+</body>
+</html>
